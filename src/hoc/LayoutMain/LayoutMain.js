@@ -1,18 +1,27 @@
 import React, { Component } from 'react';
 
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
+import './LayoutMain.css';
+import { Layout } from 'antd';
+
+const { Header, Footer, Sider, Content } = Layout;
 
 class LayoutMain extends Component {
+
     render () {
+
         return (
-            <React.Fragment>
-                <CssBaseline />
-                <Container fixed>
-                    <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }} />             
-                </Container>
-            </React.Fragment>
+            <div>
+                <Layout>
+                        <Sider>Sider</Sider>                    
+                    <Layout>
+                        <Header>Header</Header>
+                        <Content>
+                            Content
+                        </Content>
+                        <Footer>Footer</Footer>
+                    </Layout>
+                </Layout>
+            </div>
         );
     }
 }
