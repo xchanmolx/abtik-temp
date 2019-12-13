@@ -3,7 +3,8 @@
     width: 100%;
     position: fixed;
     bottom: 0;
-    background-color: palevioletred;
+    background-color: #FF851B;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
