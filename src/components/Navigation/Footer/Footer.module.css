@@ -1,0 +1,20 @@
+.Footer {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    flex-flow: row;     
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {        
+        flex-flow: row;     
+    }
+}
