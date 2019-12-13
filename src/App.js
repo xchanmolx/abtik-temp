@@ -3,8 +3,8 @@ import { Route, Switch} from 'react-router-dom';
 
 import Layout from './hoc/Layout/Layout';
 import Home from './containers/Home/Home';
-import Project from './containers/Project/Project';
-import About from './components/About/About';
+import Preparedness from './containers/Preparedness/Preparedness';
+import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact';
 
 class App extends Component {
@@ -15,8 +15,8 @@ class App extends Component {
       <div>
         <Layout>          
           <Switch>                        
-            <Route path="/project" component={Project} />
-            <Route path="/about" component={About} />
+            <Route path="/preparedness" component={Preparedness} />
+            <Route path="/team" component={Team} />
             <Route path="/contact" component={Contact} />
             <Route path="/" exact component={Home} />            
           </Switch>

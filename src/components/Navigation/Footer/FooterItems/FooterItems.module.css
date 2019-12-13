@@ -6,6 +6,7 @@
     align-items: center;
     height: 100%;
     flex-flow: row; 
+    text-align: center;
 }
 
 @media (min-width: 500px) {

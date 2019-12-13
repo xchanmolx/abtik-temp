@@ -1,12 +1,10 @@
-.Home {
-    width: 80%;   
-    height: 500px;    
+.Team {
+    width: 80%;    
     display: absolute;
-    text-align: left;    
     border: 1px solid #eee;
     box-shadow: 0 2px 3px #ccc;
     padding: 10px;
     margin: 10px auto;
     box-sizing: border-box;
-    color: #FF851B;
+    transition: all 0.3s ease-out;
 }

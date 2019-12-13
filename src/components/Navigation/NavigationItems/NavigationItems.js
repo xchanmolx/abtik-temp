@@ -8,8 +8,8 @@ import { Icon } from 'antd';
 const navigationItems = (props) => (
     <ul className={classes.NavigationItems}>
         <NavigationItem link="/" exact><Icon type="home" /> Home</NavigationItem>
-        <NavigationItem link="/project"><Icon type="project" /> Project</NavigationItem>
-        <NavigationItem link="/about"><Icon type="idcard" /> About</NavigationItem>
+        <NavigationItem link="/preparedness"><Icon type="project" /> Preparedness</NavigationItem>
+        <NavigationItem link="/team"><Icon type="idcard" /> Team</NavigationItem>
         <NavigationItem link="/contact"><Icon type="phone" /> Contact</NavigationItem>
     </ul>
 );

@@ -41,7 +41,7 @@
     .FooterItem a:hover,
     .FooterItem a:active,
     .FooterItem a.active {
-        background-color: #976073;
+        background-color: darkorange;
         border-bottom: 4px solid #40A4C8;
         color: white;
     }   

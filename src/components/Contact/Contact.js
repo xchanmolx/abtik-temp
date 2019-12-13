@@ -17,7 +17,7 @@ const TextRandom = () => (
 
 const contact = () => (
     <div className={classes.Contact}>
-        <Title style={{color: "palevioletred"}}><TextRandom /></Title>
+        <Title style={{color: "#FF851B"}}><TextRandom /></Title>
     </div>
 );
 
